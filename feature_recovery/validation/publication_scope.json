@@ -1,0 +1,39 @@
+{
+  "original_source_count": 12,
+  "portable_module_count": 12,
+  "excluded_from_publication": [
+    "two strategy-runner helpers",
+    "three standalone preprocessing scripts",
+    "V1/V2.1/V3 multiday research drivers",
+    "diagonal research helper"
+  ],
+  "generator_sha256": "f07538bca3687689a7eaaf6e7374aa55cbc049073dcfda8185888085cb9884b2",
+  "original_hash_checks": {
+    "sierra/candle_force/candle_force_vbp_weights.py": true,
+    "sierra/candle_force/score_candle_force_day.py": true,
+    "sierra/candle_force/score_candle_force_day_v2.py": true,
+    "sierra/luis_or_127_close205.py": true,
+    "sierra/luis_vbp_or.py": true,
+    "sierra/plot_daily_1h_ah_rth_dva.py": true,
+    "sierra/plot_eval3_5m_va_pmor.py": true,
+    "sierra/plot_pmor_orhl5_day.py": true,
+    "sierra/luis_or_127_delta.py": true,
+    "sierra/luis_or_127_r2va.py": true,
+    "sierra/luis_or_127_swing.py": true,
+    "sierra/plot_close205_vol.py": true
+  },
+  "portable_hash_checks": {
+    "portable/candle_force_vbp_weights.py": true,
+    "portable/score_candle_force_day.py": true,
+    "portable/score_candle_force_day_v2.py": true,
+    "portable/luis_or_127_close205.py": true,
+    "portable/luis_vbp_or.py": true,
+    "portable/plot_daily_1h_ah_rth_dva.py": true,
+    "portable/plot_eval3_5m_va_pmor.py": true,
+    "portable/plot_pmor_orhl5_day.py": true,
+    "portable/luis_or_127_delta.py": true,
+    "portable/luis_or_127_r2va.py": true,
+    "portable/luis_or_127_swing.py": true,
+    "portable/plot_close205_vol.py": true
+  }
+}

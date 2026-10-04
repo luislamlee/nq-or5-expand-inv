@@ -1,0 +1,22 @@
+{
+  "original_not_in_raw": {
+    "n": 95,
+    "first_ts": "2026-02-17 14:31:25.992000",
+    "last_ts": "2026-02-17 14:31:26.983001",
+    "min_price": 24670.0,
+    "max_price": 24678.0,
+    "total_volume": 96.0,
+    "bid_volume": 60.0,
+    "ask_volume": 36.0
+  },
+  "raw_not_in_original": {
+    "n": 0,
+    "first_ts": null,
+    "last_ts": null,
+    "min_price": null,
+    "max_price": null,
+    "total_volume": null,
+    "bid_volume": null,
+    "ask_volume": null
+  }
+}

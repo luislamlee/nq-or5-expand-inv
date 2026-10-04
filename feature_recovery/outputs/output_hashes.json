@@ -1,0 +1,50 @@
+{
+  "regression_volroll_vs_original.csv": {
+    "bytes": 2726,
+    "sha256": "50e7676bc551d79cf659b3b8454c06ec999aa7111e7cbcfe235797373e75aded"
+  },
+  "regression_original_inputs_vs_original.csv": {
+    "bytes": 39,
+    "sha256": "ebdb49e5bd69215e1f1d4b8d706feaf239962287d397922947c40e11dc3bc284"
+  },
+  "coverage_manifest_326.csv": {
+    "bytes": 111792,
+    "sha256": "17c6368aaa57e01f4a09ab005e59aecd52399418804ad4fe7b6ef4ff2ba850ec"
+  },
+  "F3_OR5_features_volroll_regenerated.csv": {
+    "bytes": 39069,
+    "sha256": "a323b5dbaf869a472fb3d07ad6ec7f11fc74097194b37e94ed6f059e0c97a525"
+  },
+  "F3_positive_dates_volroll.csv": {
+    "bytes": 2831,
+    "sha256": "c75c5bb4e746dab869269863378092876e5e92125893b0be870f8de665b32e2d"
+  },
+  "F3_OR5_features_legacy_preserved.csv": {
+    "bytes": 39071,
+    "sha256": "80695e4cdc4eb65e92b8b08cc8b0d4f23476ca8c8a5961e5a1b1fa8350bad12e"
+  },
+  "generation.log": {
+    "bytes": 376,
+    "sha256": "a4186037b01d29e40d2ace612bf8a0c9ededee4f90ade345626f870ce8a33b35"
+  },
+  "component_votes_historical_172.csv": {
+    "bytes": 47285,
+    "sha256": "7115225d7c5132334a1fb1220eb3805f4e7287dad5f377e19b668951313f4477"
+  },
+  "component_votes_volroll.csv": {
+    "bytes": 88961,
+    "sha256": "35bd19551f4803317741b55704e980833d6a5954346fc276648359206ebeaa48"
+  },
+  "generation_summary.json": {
+    "bytes": 7659,
+    "sha256": "7b7df6e169c8bdf806ec2d907093e0414263e42be6f458a866eb146f7ac7dab9"
+  },
+  "previously_missing_dates_154.csv": {
+    "bytes": 52820,
+    "sha256": "a9832fdb5bac2d2cb0c652051c1617b0ab9b7007bfc8d53b9cd42a9268e56523"
+  },
+  "F3_OR5_historical_regenerated_172.csv": {
+    "bytes": 20743,
+    "sha256": "4f4706823ed2dcba7cc662948710b01998749d30f75664f8b2a836367865ca65"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "null_tick_contract_reason": "",
+  "null_tick_contract_count": 1,
+  "input_hashes": {
+    "NQ_front_volroll.duckdb": "9edd9bbbc3f32fe5ef4b0fec3edf7da5be34becb71b62d6b62896d361a0efb34",
+    "NQH26-CME-15s.duckdb": "d218ec0713d4162a4dfe179bf531008e36eae576cc6167a08106d75222e6d36a"
+  },
+  "output_exists": {
+    "returncode": 2,
+    "error": "generate_original_features.py: error: Output directory already exists; choose a new directory"
+  },
+  "wrong_reference": {
+    "returncode": 2,
+    "error": "generate_original_features.py: error: Reference fixture changed; refusing to validate against a modified baseline"
+  },
+  "wrong_database": {
+    "returncode": 2,
+    "error": "generate_original_features.py: error: VolRoll hash differs from the audited input; no automatic data-version substitution"
+  },
+  "output_sentinel_unchanged": true,
+  "bad_input_outputs_not_created": true
+}

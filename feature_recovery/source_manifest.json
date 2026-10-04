@@ -1,0 +1,294 @@
+{
+  "repository": "luislamlee/nq-master-algo",
+  "commit": "56c9056fa414ebf93e3285e240368d5c4bfdb53b",
+  "files": [
+    {
+      "source_path": "sierra/candle_force/candle_force_vbp_weights.py",
+      "git_blob": "f612935425b189f51e45d31cf3ce1cc8e0724149",
+      "sha256": "3342d6b127de1053183b8e0488beac0c8f9406a457456623bf1c562572025f3c",
+      "bytes": 15942,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/candle_force_vbp_weights.py",
+      "portable_sha256": "0ac5b2757641425968a3485e9724134688b544b806e6568858f76ce620fefaa0",
+      "removed_import_bootstrap_lines": [
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          36,
+          37
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/candle_force/score_candle_force_day.py",
+      "git_blob": "b33f0a7c2a1aa11add75a2ac4a9471de630fb28a",
+      "sha256": "753193f6a98608aa43785b27f2623bd7ba32382ad43940f70128cdc4ba8ea9d0",
+      "bytes": 15237,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/score_candle_force_day.py",
+      "portable_sha256": "39a9f444112254baca835d6494da4cd76085461035e7e7034fc4a55dc8334065",
+      "removed_import_bootstrap_lines": [
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/candle_force/score_candle_force_day_v2.py",
+      "git_blob": "2d95e496ab8b5cfc5640229df1e144302f037667",
+      "sha256": "dddbb8b86c9a01c21330a3d9f2eb133535f7c49d4698d563ff38883b273f96a5",
+      "bytes": 65846,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/score_candle_force_day_v2.py",
+      "portable_sha256": "1b21d2725c8dd7a92e9a841c140c602ff6dc0c8b4063216f55891cdbad7f0639",
+      "removed_import_bootstrap_lines": [
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/luis_or_127_close205.py",
+      "git_blob": "461110e7b9cebad852909d0451748b53acd68864",
+      "sha256": "b2a832506aac11b6861b31102954e8db233289d23cf42ff6ce55247e896ab3d5",
+      "bytes": 15957,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/luis_or_127_close205.py",
+      "portable_sha256": "f67b30e67c19d5091d18baca62f274cbaec126bff6a433c86caac86e9af42107",
+      "removed_import_bootstrap_lines": [
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/luis_vbp_or.py",
+      "git_blob": "aa03f19858565689529165120d1cc8ab55b62275",
+      "sha256": "1d0a5b7d57b2290edf5ef6f555add3f191264f1c4d6fd5472860931879d2e1c0",
+      "bytes": 29007,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/luis_vbp_or.py",
+      "portable_sha256": "3d3ef4bc5daa65ac78a5cc1a373228a79713d2e84747593277937e9448308eb5",
+      "removed_import_bootstrap_lines": [
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/plot_daily_1h_ah_rth_dva.py",
+      "git_blob": "454568dab8dedfcb6e0ffc8411d3c310b2612693",
+      "sha256": "4c806acf4db944ca749fa4cf76aac1dbe3ee09d259cc796f6a108145ac279a5e",
+      "bytes": 26257,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/plot_daily_1h_ah_rth_dva.py",
+      "portable_sha256": "6f88d743810df9bddc85ebceaceed92a5afc0c12ae0fef0880eeca6ac9c5b074",
+      "removed_import_bootstrap_lines": [
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          33,
+          34
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/plot_eval3_5m_va_pmor.py",
+      "git_blob": "76fb0300f63039f507f934f0caf9cac10dc0e770",
+      "sha256": "9214986eefa1b38de8d74f305deb16ef9fac0b386a6fe3a014e3b00e0d5d58a6",
+      "bytes": 26540,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/plot_eval3_5m_va_pmor.py",
+      "portable_sha256": "1d261662439a5fe463e8643b83c26e6496490454ec081d08491390cfd11d8e10",
+      "removed_import_bootstrap_lines": [
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/plot_pmor_orhl5_day.py",
+      "git_blob": "15265dda3bcdf2492888e4800430739372445cea",
+      "sha256": "c479a3384a7ab2daf639f91067435ae3292289dccfd5ad2454f1f924745c69f6",
+      "bytes": 16260,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/plot_pmor_orhl5_day.py",
+      "portable_sha256": "f5928b791e75669768ddc9e180de3d467eacc6062288babc1e223fa481bec084",
+      "removed_import_bootstrap_lines": [
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          27,
+          28
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/luis_or_127_delta.py",
+      "git_blob": "ca15ee4281959111da44a7316b2288a1aec63f81",
+      "sha256": "d1b62bc8bfceaa279e2403c5f4f1185c588cb5838179484a66fc1bd97caf0243",
+      "bytes": 52129,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/luis_or_127_delta.py",
+      "portable_sha256": "ee142846664c65fffafad534e939011253af64a9719ee3b8b500516ac1687db9",
+      "removed_import_bootstrap_lines": [
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          55,
+          56
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/luis_or_127_r2va.py",
+      "git_blob": "949490c47fc6b2235a171b19ac29f5f95a3c4e4d",
+      "sha256": "b1c61e7316c0ec2dbb4137eaed6f6d325c194bc914afebb8db32b8fcd7f8fca5",
+      "bytes": 51525,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/luis_or_127_r2va.py",
+      "portable_sha256": "a12963544171ccd6be2eb71453c81954e59bcd439a7bf3fb4d5a3d900ea1e986",
+      "removed_import_bootstrap_lines": [
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          40,
+          41
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/luis_or_127_swing.py",
+      "git_blob": "b22813a4264100f786848f06e3f880d3fa433a4a",
+      "sha256": "38493afab4c35aeea7f95a1a68e1edeafdafb5affe6dd130a3feaaa7be01437f",
+      "bytes": 17028,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/luis_or_127_swing.py",
+      "portable_sha256": "e0b78380e85a1952d776b13e09f99d30c017059e0d91aec07a6e46044990b4c5",
+      "removed_import_bootstrap_lines": [
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_path": "sierra/plot_close205_vol.py",
+      "git_blob": "81758eafeb4990c4ed3ccfe9a72fd39c9b09c273",
+      "sha256": "1a3fc631fcfcc7f71004b1d1ccaeeb1a8193d294a5d668da1f67eb3a1c1f4e18",
+      "bytes": 35636,
+      "role": "scorer_import_dependency",
+      "portable_path": "portable/plot_close205_vol.py",
+      "portable_sha256": "8c8f4135c21cd6ac9b9634920fe52150e544a68cda2ea3b4a962d550f6914d75",
+      "removed_import_bootstrap_lines": [
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "all_function_and_class_asts_unchanged": true
+    }
+  ]
+}

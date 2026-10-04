@@ -1,0 +1,32 @@
+{
+  "audit_run": "candleforce_accepted_run",
+  "generator_sha256": "f07538bca3687689a7eaaf6e7374aa55cbc049073dcfda8185888085cb9884b2",
+  "source_manifest_sha256": "3c25747a22bc76e8739a0694fdedd5e7cf79df63767892b3a06f224bed1c84a0",
+  "all_35_artifact_and_source_checks_pass": true,
+  "boundary_cases": 18,
+  "all_boundary_cases_pass": true,
+  "label_boundary_cases_pass": true,
+  "label_boundary_cases": 5,
+  "preopen_and_future_poison_output_unchanged": true,
+  "source_and_portable_tamper_guards_pass": true,
+  "historical_hash_guard_pass": true,
+  "existing_output_and_bad_input_guards_pass": true,
+  "source_database_hashes": {
+    "NQ_front_volroll.duckdb": "9edd9bbbc3f32fe5ef4b0fec3edf7da5be34becb71b62d6b62896d361a0efb34",
+    "NQH26-CME-15s.duckdb": "d218ec0713d4162a4dfe179bf531008e36eae576cc6167a08106d75222e6d36a"
+  },
+  "historical_feature_rows_exact": 172,
+  "historical_vote_fields_exact": 16,
+  "original_f3_dates_exact": 50,
+  "new_f3_dates": 50,
+  "total_f3_dates": 100,
+  "coverage_dates": 326,
+  "valid_generated_dates": 325,
+  "unresolved_blocking_issues": [],
+  "publication_cautions": [
+    "Publish text source and validated CSV/JSON evidence only; exclude every research .duckdb and __pycache__ file.",
+    "VolRoll-only historical values differ in81 fields on17dates; retain the documented original-H26 provenance and distinct exports.",
+    "Tests establish first-OR5 feature causality conditional on the supplied roll_calendar; they do not establish ex-ante contract-selection provenance."
+  ],
+  "publication_scope_note": "The research audit checked21 recovered sources. Public publication is restricted to12 mandatory original scorer/import modules and their12 portable counterparts. All generator code and portable computations are unchanged. Runner helpers and standalone preprocessing/research drivers are excluded. See publication_scope.json."
+}

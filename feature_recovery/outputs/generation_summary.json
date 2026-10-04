@@ -1,0 +1,450 @@
+{
+  "generated_at_utc": "2026-10-04T14:02:40.002234+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packages": {
+    "duckdb": "1.4.3",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.10.8"
+  },
+  "source_repository": "luislamlee/nq-master-algo",
+  "source_commit": "56c9056fa414ebf93e3285e240368d5c4bfdb53b",
+  "input_hashes": {
+    "VolRoll": "9edd9bbbc3f32fe5ef4b0fec3edf7da5be34becb71b62d6b62896d361a0efb34",
+    "historical_H26": "d218ec0713d4162a4dfe179bf531008e36eae576cc6167a08106d75222e6d36a",
+    "original_feature_fixture": "4f4706823ed2dcba7cc662948710b01998749d30f75664f8b2a836367865ca65"
+  },
+  "session_dates": 326,
+  "generated_valid_or5_dates": 325,
+  "no_rth_dates": [
+    "2026-04-03"
+  ],
+  "unavailable_other_dates": [],
+  "volroll_f3_positive_count": 100,
+  "new_f3_positive_count": 50,
+  "original_f3_positive_count": 50,
+  "volroll_same_original_50_dates": true,
+  "volroll_regression_mismatch_fields": 81,
+  "volroll_regression_mismatch_dates": [
+    "2026-02-17",
+    "2026-02-23",
+    "2026-02-24",
+    "2026-02-25",
+    "2026-02-26",
+    "2026-02-27",
+    "2026-03-02",
+    "2026-03-03",
+    "2026-03-04",
+    "2026-03-05",
+    "2026-03-06",
+    "2026-03-09",
+    "2026-03-10",
+    "2026-03-11",
+    "2026-03-12",
+    "2026-03-13",
+    "2026-03-16"
+  ],
+  "historical_regression_passed": true,
+  "historical_mismatch_fields": 0,
+  "preserved_reference_row_bytes": true,
+  "new_feature_dates": 153,
+  "manifest_status_counts": {
+    "features generated": 167,
+    "non-red OR5, excluded from F3": 158,
+    "no RTH": 1
+  },
+  "causal_scope": "Scoring adapter contains only fixed-clock OR5 data before 09:35 New York; roll_calendar is consumed without reselecting contracts; full-day RTH counts are diagnostic only",
+  "limitations": [
+    "VolRoll alone does not reproduce 17 legacy H26 feature dates; original H26 input is required for exact historical regression.",
+    "The additional 153 dates are new executions of the recovered original formula, not recovered historical cached labels.",
+    "The no-RTH date has no synthetic feature row and has a null F3 label.",
+    "Historical multiday sample inclusion used full-day completeness and was not a purely ex-ante sample selection."
+  ],
+  "schema": {
+    "ticks": [
+      [
+        "ts",
+        "TIMESTAMP",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "open",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "high",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "low",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "close",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "num_trades",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "total_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "bid_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ask_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "contract",
+        "VARCHAR",
+        "YES",
+        null,
+        null,
+        null
+      ]
+    ],
+    "bars_t_15s": [
+      [
+        "bar_id",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "session_date",
+        "DATE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ts_open",
+        "TIMESTAMP",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ts_close",
+        "TIMESTAMP",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "duration_ms",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "open",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "high",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "low",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "close",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "total_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "bid_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ask_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "delta",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "cvd",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "num_trades",
+        "INTEGER",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "max_trade_size",
+        "INTEGER",
+        "YES",
+        null,
+        null,
+        null
+      ]
+    ],
+    "bars_t_1m": [
+      [
+        "bar_id",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "session_date",
+        "DATE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ts_open",
+        "TIMESTAMP",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ts_close",
+        "TIMESTAMP",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "duration_ms",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "open",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "high",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "low",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "close",
+        "DOUBLE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "total_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "bid_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "ask_volume",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "delta",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "cvd",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "num_trades",
+        "INTEGER",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "max_trade_size",
+        "INTEGER",
+        "YES",
+        null,
+        null,
+        null
+      ]
+    ],
+    "roll_calendar": [
+      [
+        "session_date",
+        "DATE",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "contract",
+        "VARCHAR",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "vol_contrato",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "vol_siguiente",
+        "BIGINT",
+        "YES",
+        null,
+        null,
+        null
+      ],
+      [
+        "primera_sesion_del_contrato",
+        "BOOLEAN",
+        "YES",
+        null,
+        null,
+        null
+      ]
+    ]
+  }
+}

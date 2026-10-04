@@ -1,0 +1,567 @@
+{
+  "method": "Read-only bars_t_1m fixed-clock OR5 and roll_calendar dates; original features used only to mark coverage, not create scores",
+  "session_count": 326,
+  "date_min": "2025-06-17",
+  "date_max": "2026-09-17",
+  "input_counts": {
+    "roll_calendar": 326,
+    "bars_t_15s": 1762789,
+    "bars_t_1m": 445663,
+    "ticks": 156507521
+  },
+  "schema": {
+    "roll_calendar": [
+      {
+        "column_name": "session_date",
+        "column_type": "DATE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "contract",
+        "column_type": "VARCHAR",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "vol_contrato",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "vol_siguiente",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "primera_sesion_del_contrato",
+        "column_type": "BOOLEAN",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      }
+    ],
+    "bars_t_15s": [
+      {
+        "column_name": "bar_id",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "session_date",
+        "column_type": "DATE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ts_open",
+        "column_type": "TIMESTAMP",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ts_close",
+        "column_type": "TIMESTAMP",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "duration_ms",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "open",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "high",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "low",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "close",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "total_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "bid_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ask_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "delta",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "cvd",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "num_trades",
+        "column_type": "INTEGER",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "max_trade_size",
+        "column_type": "INTEGER",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      }
+    ],
+    "bars_t_1m": [
+      {
+        "column_name": "bar_id",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "session_date",
+        "column_type": "DATE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ts_open",
+        "column_type": "TIMESTAMP",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ts_close",
+        "column_type": "TIMESTAMP",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "duration_ms",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "open",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "high",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "low",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "close",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "total_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "bid_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ask_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "delta",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "cvd",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "num_trades",
+        "column_type": "INTEGER",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "max_trade_size",
+        "column_type": "INTEGER",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      }
+    ],
+    "ticks": [
+      {
+        "column_name": "ts",
+        "column_type": "TIMESTAMP",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "open",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "high",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "low",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "close",
+        "column_type": "DOUBLE",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "num_trades",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "total_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "bid_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "ask_volume",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "contract",
+        "column_type": "VARCHAR",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      }
+    ]
+  },
+  "known_feature_dates": 172,
+  "missing_dates": 154,
+  "missing_status_counts": {
+    "features missing": 79,
+    "non-red OR5, excluded from F3": 74,
+    "no RTH": 1
+  },
+  "missing_red_dates": [
+    "2025-06-18",
+    "2025-06-19",
+    "2025-06-23",
+    "2025-06-26",
+    "2025-06-30",
+    "2025-07-04",
+    "2025-07-07",
+    "2025-07-08",
+    "2025-07-10",
+    "2025-07-14",
+    "2025-07-15",
+    "2025-07-16",
+    "2025-07-17",
+    "2025-07-18",
+    "2025-07-22",
+    "2025-07-23",
+    "2025-07-24",
+    "2025-07-30",
+    "2025-07-31",
+    "2025-08-01",
+    "2025-08-05",
+    "2025-08-11",
+    "2025-08-15",
+    "2025-08-19",
+    "2025-08-20",
+    "2025-08-21",
+    "2025-08-22",
+    "2025-08-25",
+    "2025-08-29",
+    "2025-09-01",
+    "2025-09-02",
+    "2025-09-03",
+    "2025-09-05",
+    "2025-09-10",
+    "2025-09-12",
+    "2025-09-16",
+    "2025-09-17",
+    "2025-09-19",
+    "2025-09-23",
+    "2025-09-24",
+    "2025-09-25",
+    "2025-09-30",
+    "2025-10-02",
+    "2025-10-06",
+    "2025-10-09",
+    "2025-10-13",
+    "2025-10-14",
+    "2025-10-15",
+    "2025-10-21",
+    "2025-10-22",
+    "2025-10-30",
+    "2025-10-31",
+    "2025-11-03",
+    "2025-11-04",
+    "2025-11-05",
+    "2025-11-06",
+    "2025-11-07",
+    "2025-11-12",
+    "2025-11-13",
+    "2025-11-14",
+    "2025-11-20",
+    "2025-11-25",
+    "2025-12-03",
+    "2025-12-04",
+    "2025-12-09",
+    "2025-12-10",
+    "2025-12-11",
+    "2025-12-15",
+    "2026-01-19",
+    "2026-02-16",
+    "2026-06-19",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-08",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-17"
+  ],
+  "missing_nonred_dates": [
+    "2025-06-17",
+    "2025-06-20",
+    "2025-06-24",
+    "2025-06-25",
+    "2025-06-27",
+    "2025-07-01",
+    "2025-07-02",
+    "2025-07-03",
+    "2025-07-09",
+    "2025-07-11",
+    "2025-07-21",
+    "2025-07-25",
+    "2025-07-28",
+    "2025-07-29",
+    "2025-08-04",
+    "2025-08-06",
+    "2025-08-07",
+    "2025-08-08",
+    "2025-08-12",
+    "2025-08-13",
+    "2025-08-14",
+    "2025-08-18",
+    "2025-08-26",
+    "2025-08-27",
+    "2025-08-28",
+    "2025-09-04",
+    "2025-09-08",
+    "2025-09-09",
+    "2025-09-11",
+    "2025-09-15",
+    "2025-09-18",
+    "2025-09-22",
+    "2025-09-26",
+    "2025-09-29",
+    "2025-10-01",
+    "2025-10-03",
+    "2025-10-07",
+    "2025-10-08",
+    "2025-10-10",
+    "2025-10-16",
+    "2025-10-17",
+    "2025-10-20",
+    "2025-10-23",
+    "2025-10-24",
+    "2025-10-27",
+    "2025-10-28",
+    "2025-10-29",
+    "2025-11-10",
+    "2025-11-11",
+    "2025-11-17",
+    "2025-11-18",
+    "2025-11-19",
+    "2025-11-21",
+    "2025-11-24",
+    "2025-11-26",
+    "2025-11-27",
+    "2025-11-28",
+    "2025-12-01",
+    "2025-12-02",
+    "2025-12-05",
+    "2025-12-08",
+    "2025-12-12",
+    "2025-12-24",
+    "2026-05-25",
+    "2026-07-03",
+    "2026-08-26",
+    "2026-08-31",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-16"
+  ],
+  "no_rth_dates": [
+    "2026-04-03"
+  ],
+  "incomplete_or5_grid_dates_with_rth": [],
+  "outside_universe_reference_dates": []
+}

@@ -1,0 +1,6 @@
+# Tested recovery environment, Python 3.12.14. Historical environment was not fully pinned.
+duckdb==1.4.3
+numpy==2.3.5
+pandas==2.2.3
+pyarrow==25.0.1
+matplotlib==3.10.8

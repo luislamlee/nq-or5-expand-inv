@@ -1,0 +1,84 @@
+{
+  "test": "Original-scorer future-row/footprint perturbation invariance",
+  "source_commit": "56c9056fa414ebf93e3285e240368d5c4bfdb53b",
+  "scorer_sha256": "dddbb8b86c9a01c21330a3d9f2eb133535f7c49d4698d563ff38883b273f96a5",
+  "case_count": 5,
+  "all_pass": true,
+  "cases": [
+    {
+      "trading_day": "2025-12-17",
+      "case": "standard time; original H26 individual trades",
+      "source_file": "NQH26-CME-15s.duckdb",
+      "columns_checked": 46,
+      "first_start": "2025-12-17 08:30:00",
+      "first_end": "2025-12-17 08:35:00",
+      "mismatch_count": 0,
+      "comparisons": {
+        "source_vs_truncated": [],
+        "truncated_vs_added_extreme_positive_future": [],
+        "truncated_vs_replaced_extreme_negative_future": []
+      }
+    },
+    {
+      "trading_day": "2026-02-23",
+      "case": "standard time; original H26 one-second source bars",
+      "source_file": "NQH26-CME-15s.duckdb",
+      "columns_checked": 46,
+      "first_start": "2026-02-23 08:30:00",
+      "first_end": "2026-02-23 08:35:00",
+      "mismatch_count": 0,
+      "comparisons": {
+        "source_vs_truncated": [],
+        "truncated_vs_added_extreme_positive_future": [],
+        "truncated_vs_replaced_extreme_negative_future": []
+      }
+    },
+    {
+      "trading_day": "2026-03-06",
+      "case": "last session before March DST change; original H26",
+      "source_file": "NQH26-CME-15s.duckdb",
+      "columns_checked": 46,
+      "first_start": "2026-03-06 08:30:00",
+      "first_end": "2026-03-06 08:35:00",
+      "mismatch_count": 0,
+      "comparisons": {
+        "source_vs_truncated": [],
+        "truncated_vs_added_extreme_positive_future": [],
+        "truncated_vs_replaced_extreme_negative_future": []
+      }
+    },
+    {
+      "trading_day": "2026-03-09",
+      "case": "first session after March DST change; original H26",
+      "source_file": "NQH26-CME-15s.duckdb",
+      "columns_checked": 46,
+      "first_start": "2026-03-09 08:30:00",
+      "first_end": "2026-03-09 08:35:00",
+      "mismatch_count": 0,
+      "comparisons": {
+        "source_vs_truncated": [],
+        "truncated_vs_added_extreme_positive_future": [],
+        "truncated_vs_replaced_extreme_negative_future": []
+      }
+    },
+    {
+      "trading_day": "2026-08-13",
+      "case": "daylight time; VolRoll OR5-derived probe",
+      "source_file": "or5_adapter_probe.duckdb",
+      "columns_checked": 46,
+      "first_start": "2026-08-13 08:30:00",
+      "first_end": "2026-08-13 08:35:00",
+      "mismatch_count": 0,
+      "comparisons": {
+        "source_vs_truncated": [],
+        "truncated_vs_added_extreme_positive_future": [],
+        "truncated_vs_replaced_extreme_negative_future": []
+      }
+    }
+  ],
+  "limits": [
+    "Tests current feature computation after input session/contract selection; does not independently establish historical roll-calendar causality",
+    "Does not make original full-day completeness selection causal at OR5",
+    "Original input DBs remained read-only; disposable derived DBs were removed after each test"
+  ]
+}

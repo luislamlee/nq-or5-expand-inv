@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.duckdb
+*.duckdb.wal
+.venv/
+run_*/
+matplotlib_cache/
+cache/

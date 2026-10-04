@@ -1,0 +1,343 @@
+{
+  "run": "candleforce_accepted_run",
+  "checks": {
+    "source_count_21": {
+      "passed": true
+    },
+    "portable_count_12": {
+      "passed": true
+    },
+    "all_original_and_portable_source_checks": {
+      "passed": true
+    },
+    "reference_row_count_and_unique_dates": {
+      "passed": true,
+      "detail": 172
+    },
+    "historical_row_count_and_unique_dates": {
+      "passed": true,
+      "detail": 172
+    },
+    "generated_row_count_and_unique_dates": {
+      "passed": true,
+      "detail": 325
+    },
+    "legacy_preserved_row_count_and_unique_dates": {
+      "passed": true,
+      "detail": 325
+    },
+    "coverage_row_count_and_unique_dates": {
+      "passed": true,
+      "detail": 326
+    },
+    "previously_missing_row_count_and_unique_dates": {
+      "passed": true,
+      "detail": 154
+    },
+    "historical_features_same_dates": {
+      "passed": true
+    },
+    "historical_features_exact_equality": {
+      "passed": true,
+      "detail": []
+    },
+    "historical_votes_same_dates": {
+      "passed": true
+    },
+    "historical_votes_exact_equality": {
+      "passed": true,
+      "detail": []
+    },
+    "original_50_dates_exact": {
+      "passed": true,
+      "detail": {
+        "original_count": 50,
+        "historical_count": 50,
+        "volroll_original_count": 50
+      }
+    },
+    "new_50_and_total_100": {
+      "passed": true,
+      "detail": {
+        "new": 50,
+        "total": 100
+      }
+    },
+    "generated_score_equals_sum16": {
+      "passed": true
+    },
+    "generated_six_previous_votes_zero": {
+      "passed": true
+    },
+    "generated_f3_rule": {
+      "passed": true
+    },
+    "generated_feature_values_finite": {
+      "passed": true
+    },
+    "historical_score_equals_sum16": {
+      "passed": true
+    },
+    "historical_six_previous_votes_zero": {
+      "passed": true
+    },
+    "historical_f3_rule": {
+      "passed": true
+    },
+    "historical_feature_values_finite": {
+      "passed": true
+    },
+    "generated_bool_columns_original_int_schema": {
+      "passed": true
+    },
+    "historical_bool_columns_original_int_schema": {
+      "passed": true
+    },
+    "legacy_preserved_bool_columns_original_int_schema": {
+      "passed": true
+    },
+    "preserved_reference_172_rows_byte_exact": {
+      "passed": true
+    },
+    "coverage_expected_missing_dates": {
+      "passed": true
+    },
+    "missing_154_status_counts": {
+      "passed": true,
+      "detail": {
+        "features generated": 79,
+        "non-red OR5, excluded from F3": 74,
+        "no RTH": 1
+      }
+    },
+    "no_rth_null_features_and_no_synthetic_row": {
+      "passed": true
+    },
+    "volroll_81_field_17_date_differences": {
+      "passed": true,
+      "detail": {
+        "fields": 81,
+        "dates": 17
+      }
+    },
+    "summary_success": {
+      "passed": true
+    },
+    "output_hashes": {
+      "passed": true
+    },
+    "no_raw_databases_or_archives_in_stage": {
+      "passed": true,
+      "detail": []
+    },
+    "no_obvious_credentials_in_stage": {
+      "passed": true,
+      "detail": []
+    }
+  },
+  "source_files": [
+    {
+      "path": "sierra/candle_force/candle_force_vbp_weights.py",
+      "sha256": "3342d6b127de1053183b8e0488beac0c8f9406a457456623bf1c562572025f3c",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/candle_force/extend_u26_15s_from_volroll.py",
+      "sha256": "d3b655bea3d9f950fb71ff99ec1b61a293a12e4f26c1b1f2990279011495b305",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/run_candle_force_multiday_forward.py",
+      "sha256": "d10aad3700002bbad2fe9b42a9036dbdcbc4935e9c696c229f013abb22cbe06c",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/run_candle_force_v3.py",
+      "sha256": "c5206514ae37d8dc1e7fd52defd2a1b50518cbe63f9d8b053aaed55540948b4e",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/run_or5_short_hold_laxo_vs_ratchet.py",
+      "sha256": "e525a1abb6d7d46fb900553140ba22003b38a2d6c529fbd943804d87dcd80cc5",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/run_or5_short_longfix.py",
+      "sha256": "fedd8f8cc971fb6cff8f81714d2baf62ca1f40fed827155308e3f9a1f4000f6b",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/score_candle_force_day.py",
+      "sha256": "753193f6a98608aa43785b27f2623bd7ba32382ad43940f70128cdc4ba8ea9d0",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/candle_force/score_candle_force_day_v2.py",
+      "sha256": "dddbb8b86c9a01c21330a3d9f2eb133535f7c49d4698d563ff38883b273f96a5",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/luis_or_127_close205.py",
+      "sha256": "b2a832506aac11b6861b31102954e8db233289d23cf42ff6ce55247e896ab3d5",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/luis_vbp_or.py",
+      "sha256": "1d0a5b7d57b2290edf5ef6f555add3f191264f1c4d6fd5472860931879d2e1c0",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/plot_daily_1h_ah_rth_dva.py",
+      "sha256": "4c806acf4db944ca749fa4cf76aac1dbe3ee09d259cc796f6a108145ac279a5e",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/plot_eval3_5m_va_pmor.py",
+      "sha256": "9214986eefa1b38de8d74f305deb16ef9fac0b386a6fe3a014e3b00e0d5d58a6",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/plot_pmor_orhl5_day.py",
+      "sha256": "c479a3384a7ab2daf639f91067435ae3292289dccfd5ad2454f1f924745c69f6",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/build_bars_15s_rth_export.py",
+      "sha256": "ac00cea52d295836b2dd52c655bf9b65bca21e5dde064713025619cb4d63b330",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/candle_force_diag_delta.py",
+      "sha256": "e11bd71bb6174bbb569e8765c30adcaf01393e302db4e7045861a0ec4f4e1a38",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/candle_force/run_candle_force_v21.py",
+      "sha256": "354084676a59aeb846f1cdced15835f5b322925a839b00c309e77d6d06ba6edd",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/fill_footprint_15s.py",
+      "sha256": "bb0d095436ab61a2291dbff29d65361534f1f45d02dd76ebef758c9e4ee1a706",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true
+    },
+    {
+      "path": "sierra/luis_or_127_delta.py",
+      "sha256": "d1b62bc8bfceaa279e2403c5f4f1185c588cb5838179484a66fc1bd97caf0243",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/luis_or_127_r2va.py",
+      "sha256": "b1c61e7316c0ec2dbb4137eaed6f6d325c194bc914afebb8db32b8fcd7f8fca5",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/luis_or_127_swing.py",
+      "sha256": "38493afab4c35aeea7f95a1a68e1edeafdafb5affe6dd130a3feaaa7be01437f",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    },
+    {
+      "path": "sierra/plot_close205_vol.py",
+      "sha256": "1a3fc631fcfcc7f71004b1d1ccaeeb1a8193d294a5d668da1f67eb3a1c1f4e18",
+      "matches_recovery_bytes": true,
+      "matches_manifest_sha256": true,
+      "matches_git_blob": true,
+      "portable_entire_ast_equals_original_except_manifest_bootstrap": true,
+      "portable_hash_matches": true,
+      "only_import_bootstrap_removed": true
+    }
+  ],
+  "stage_bytecode_to_exclude": [
+    "feature_recovery/__pycache__/generate_original_features.cpython-312.pyc",
+    "feature_recovery/__pycache__/test_input_boundaries.cpython-312.pyc",
+    "feature_recovery/__pycache__/validate_outputs.cpython-312.pyc",
+    "feature_recovery/__pycache__/test_no_lookahead.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/plot_close205_vol.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/luis_or_127_swing.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/score_candle_force_day_v2.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/plot_pmor_orhl5_day.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/luis_or_127_close205.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/plot_daily_1h_ah_rth_dva.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/luis_vbp_or.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/luis_or_127_r2va.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/candle_force_vbp_weights.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/plot_eval3_5m_va_pmor.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/score_candle_force_day.cpython-312.pyc",
+    "feature_recovery/portable/__pycache__/luis_or_127_delta.cpython-312.pyc"
+  ],
+  "overall_pass": true,
+  "publication_scope_note": "The research audit checked21 recovered sources. Public publication is restricted to12 mandatory original scorer/import modules and their12 portable counterparts. All generator code and portable computations are unchanged. Runner helpers and standalone preprocessing/research drivers are excluded. See publication_scope.json."
+}

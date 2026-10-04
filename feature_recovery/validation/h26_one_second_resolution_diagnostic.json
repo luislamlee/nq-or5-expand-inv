@@ -1,0 +1,10 @@
+{
+  "scope": "Original H26 footprint vs diagnostic 1s OHLC typical-price aggregation of raw VolRoll, Feb23-Mar16 only",
+  "days": 16,
+  "one_second_rows": 4800,
+  "diagnostic_footprint_rows": 4257,
+  "mismatch_rows": 0,
+  "mismatch_dates": [],
+  "source_transformation": "fill_footprint_15s.py:57-61 (bar HLC3) and :71-72 (round price/0.25)",
+  "provenance_note": "Diagnostic consistency test, not recovered original one-second export or permission to infer unseen feature labels"
+}

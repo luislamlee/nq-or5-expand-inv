@@ -1,0 +1,5 @@
+Verified source hashes and unchanged 172-row regression fixture
+Prepared 326 session dates with source DB attached READ_ONLY
+VolRoll-only: 325 generated dates, 100 F3 positives; 81 historical field differences
+Original-input regression: 172 dates, 0 feature differences; exact historical F3 dates: True
+Original fixture rows byte-preserved: True; no-RTH dates: ['2026-04-03']
